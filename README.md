@@ -8,14 +8,22 @@ Final project of course EE 5178: Database Management System – from SQL to NoSQ
 Video are available from [here](https://www.youtube.com/watch?v=-QkWIDQqHU4)
 
 ## File Structure
+
 ```
-├── report.pdf: Written report
-├── sql_final_code
-  ├── crawl_data.ipynb: for crawling NBA 2022-23 player stats
-  ├── NBA.csv: NBA 2022-23 player stats
-  ├── total_and_avg_list.py: Zn-SNARK on sum and average calculation
-  ├── var.py: Zn-SNARK on variance and standard deviation calculation
-  ├── pr.py: Zn-SNARK on pr calculation
-  ├── sql_final.ipynb: demo code
-├── requirements.txt 
+Root
+  ├── report.pdf: Written report
+  ├── sql_final_code
+  |     ├── crawl_data.ipynb: for crawling NBA 2022-23 player stats
+  |     ├── NBA.csv: NBA 2022-23 player stats
+  |     ├── total_and_avg_list.py: Zn-SNARK on sum and average calculation
+  |     ├── var.py: Zn-SNARK on variance and standard deviation calculation
+  |     ├── pr.py: Zn-SNARK on pr calculation
+  |     ├── sql_final.ipynb: demo code
+  ├── requirements.txt 
+```
+
+## Install Python-libsnark
+
+```
+pip install python-libsnark==0.3.2
 ```
